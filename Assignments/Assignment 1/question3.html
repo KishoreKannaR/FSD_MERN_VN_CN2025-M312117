@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h3>Registration</h3>
+    </header>
+    <main>
+        <form>
+            <label for="username">Username : </label>
+            <input type="text" id="username" placeholder="Enter Your Username" required><br><br>
+            <label for="email">Email : </label>
+            <input type="email" id="email" placeholder="Enter Your Email" required><br><br>
+            <label for="password">Password : </label>
+            <input type="password" id="password" placeholder="Enter Your Password" required><br><br>
+            <label for="confirmpassword">Confirm Password : </label>
+            <input type="password" id="confirmpassword" placeholder="Re-Enter Your Password" required><br><br>
+            <label for="dateofbirth">Date of Birth : </label>
+            <input type="date" id="dateofbirth" required><br><br>
+            <label>Gender : </label>
+            <label><input type="radio" name="gender" value="male" required> Male</label>
+            <label><input type="radio" name="gender" value="female" required> Female</label><br><br>
+            <label for="country">Country : </label>
+            <select id="country" required>
+                <option value="india">India</option>
+                <option value="argentina">Argentina</option>
+                <option value="uk">UK</option>
+                <option value="brazil">Brazil</option>
+                <option value="australia">Australia</option>
+            </select><br><br>
+            <label style="font-weight: bold;">Terms & Conditions</label><br>
+            <label><input type="checkbox" required> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, adipisci?</label><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

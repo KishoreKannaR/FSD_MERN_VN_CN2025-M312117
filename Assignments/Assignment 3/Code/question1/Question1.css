@@ -1,0 +1,58 @@
+body{
+    background-color: #242424;
+}
+
+img{
+    height: 5cm;
+    width: 5cm;
+    border-radius: 50%;
+    padding: 30px;
+}
+*{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+input{
+    background-color: #5f5e5e;
+    height: 19px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+.cardmodel{
+    background-color: #1a1a1a;
+    border: 2px solid none;
+    box-shadow: 2px 2px 2px 2px black;
+    display: inline-block;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 12px;
+}
+hr{
+    width: 70%; 
+    margin: 0 auto;
+    margin-bottom: 4%; 
+    height: 3px; 
+    background-color: white; 
+    border: none;
+}
+button{
+    margin: 10px;
+    border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2d37ff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

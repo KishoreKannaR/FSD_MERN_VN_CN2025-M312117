@@ -1,0 +1,17 @@
+.styletable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+table{
+    width: 600px;    
+}
+table,td,th{
+    border: 2px solid white;
+    border-collapse: collapse;
+
+}
+td,th{
+    padding: 30px;
+}

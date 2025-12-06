@@ -1,0 +1,56 @@
+[
+  {
+    "id": "cse",
+    "name": "Computer Science Engineering",
+    "description": "Focuses on software, algorithms, and computing.",
+    "fullDescription": "The CSE department offers courses in programming, software engineering, AI, and more.",
+    "courses": ["DSA", "OS", "DBMS", "AI", "ML"],
+    "faculty": ["Dr. Kumar", "Dr. Meena", "Dr. Ravi"],
+    "labs": ["Programming Lab", "Networks Lab"]
+  },
+  {
+    "id": "it",
+    "name": "Information Technology",
+    "description": "Focuses on networking, security, and IT solutions.",
+    "fullDescription": "The IT department offers courses in networking, cybersecurity, and cloud computing.",
+    "courses": ["Networking", "Security", "Cloud Computing"],
+    "faculty": ["Dr. Anil", "Dr. Priya"],
+    "labs": ["Networking Lab", "Security Lab"]
+  },
+  {
+    "id": "ece",
+    "name": "Electronics and Communication Engineering",
+    "description": "Focuses on electronics, circuits, and communication systems.",
+    "fullDescription": "The ECE department provides knowledge in electronics, digital circuits, and communication technology.",
+    "courses": ["Analog Circuits", "Digital Electronics", "Signals & Systems"],
+    "faculty": ["Dr. Sharma", "Dr. Anita"],
+    "labs": ["Electronics Lab", "Communication Lab"]
+  },
+  {
+    "id": "mechanical",
+    "name": "Mechanical Engineering",
+    "description": "Deals with machines, thermodynamics, and mechanics.",
+    "fullDescription": "The Mechanical department covers machine design, thermodynamics, and robotics.",
+    "courses": ["Thermodynamics", "Machine Design", "Fluid Mechanics"],
+    "faculty": ["Dr. Ramesh", "Dr. Sunita"],
+    "labs": ["CAD Lab", "Thermal Lab"]
+  },
+  {
+    "id": "civil",
+    "name": "Civil Engineering",
+    "description": "Focuses on construction, structures, and environment.",
+    "fullDescription": "The Civil department teaches structural engineering, construction management, and environmental engineering.",
+    "courses": ["Structural Analysis", "Construction Management", "Geotechnical Engineering"],
+    "faculty": ["Dr. Raj", "Dr. Meera"],
+    "labs": ["Concrete Lab", "Survey Lab"]
+  },
+  {
+    "id": "mba",
+    "name": "Master of Business Administration",
+    "description": "Focuses on management, finance, and marketing.",
+    "fullDescription": "The MBA department provides education in business strategy, finance, marketing, and HR management.",
+    "courses": ["Finance", "Marketing", "HR Management", "Operations"],
+    "faculty": ["Dr. Kiran", "Dr. Priya"],
+    "labs": ["Management Lab"]
+  }
+]

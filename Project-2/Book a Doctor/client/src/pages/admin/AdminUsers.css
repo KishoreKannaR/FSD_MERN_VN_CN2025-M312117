@@ -1,0 +1,71 @@
+/* ---------- PAGE LAYOUT ---------- */
+.admin-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f1f5f9;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+.admin-main {
+  flex: 1;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+/* ---------- HEADINGS ---------- */
+.admin-main h2 {
+  margin-bottom: 15px;
+  color: #1e3a8a;
+}
+
+/* ---------- TABLE ---------- */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.admin-table thead tr {
+  background: #e5e7eb;
+  font-weight: 600;
+}
+
+.admin-table tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+/* ---------- ROLE BADGE ---------- */
+.role-badge {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: capitalize;
+  background: #e0e7ff;
+  color: #1e40af;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  .admin-page {
+    flex-direction: column;
+  }
+
+  .admin-main {
+    padding: 15px;
+  }
+
+  .admin-table {
+    font-size: 13px;
+  }
+}

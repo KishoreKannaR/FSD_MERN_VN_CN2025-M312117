@@ -1,0 +1,172 @@
+/* ---------- PAGE LAYOUT ---------- */
+.doctor-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f1f5f9;
+}
+
+/* ---------- SIDEBAR ---------- */
+/* ---------- SIDEBAR ---------- */
+.doctor-sidebar {
+  width: 220px;
+  height: 100vh;
+  padding: 25px 20px;
+  background: #1e40af; /* same nice blue background as user sidebar */
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #3b82f6;
+  box-sizing: border-box;
+}
+
+/* ---------- LOGO / TITLE ---------- */
+.doctor-sidebar h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* ---------- NAV LINKS ---------- */
+.doctor-sidebar a {
+  color: #dbeafe; /* light blue */
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s;
+  margin-bottom: 10px;
+}
+
+.doctor-sidebar a:hover {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.doctor-sidebar a.active {
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* ---------- LOGOUT BUTTON ---------- */
+.doctor-sidebar p.logout {
+  margin-top: auto;
+  padding: 10px 15px;
+  border-radius: 6px;
+  background: #ef4444;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.doctor-sidebar p.logout:hover {
+  background: #b91c1c;
+}
+
+
+/* ---------- MAIN CONTENT ---------- */
+.doctor-main {
+  flex: 1;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.doctor-main h2 {
+  margin-bottom: 15px;
+  color: #1e3a8a;
+}
+
+.doctor-main table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.doctor-main th,
+.doctor-main td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.doctor-main thead tr {
+  background: #e5e7eb;
+  font-weight: 600;
+}
+
+.doctor-main tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+/* ---------- BUTTONS ---------- */
+.approve-btn {
+  background: #16a34a;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.reject-btn {
+  background: #dc2626;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.complete-btn {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* HOVER EFFECTS */
+.approve-btn:hover {
+  background: #15803d;
+}
+
+.reject-btn:hover {
+  background: #b91c1c;
+}
+
+.complete-btn:hover {
+  background: #1e40af;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  .doctor-page {
+    flex-direction: column;
+  }
+
+  .doctor-sidebar {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+  }
+
+  .doctor-main {
+    padding: 15px;
+  }
+
+  .doctor-main table,
+  .doctor-main th,
+  .doctor-main td {
+    font-size: 13px;
+  }
+}

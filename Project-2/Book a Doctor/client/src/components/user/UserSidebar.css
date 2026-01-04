@@ -1,0 +1,64 @@
+/* ---------- SIDEBAR CONTAINER ---------- */
+.user-sidebar {
+  width: 220px;
+  height: 100vh;
+  padding: 25px 20px;
+  background: #1e40af; /* nice blue background */
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #3b82f6;
+}
+
+/* ---------- LOGO / TITLE ---------- */
+.sidebar-logo {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* ---------- NAV LINKS ---------- */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nav-link {
+  color: #dbeafe; /* light blue */
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.nav-link.active {
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* ---------- LOGOUT BUTTON ---------- */
+.logout-btn {
+  margin-top: auto;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #ef4444;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.logout-btn:hover {
+  background: #b91c1c;
+}

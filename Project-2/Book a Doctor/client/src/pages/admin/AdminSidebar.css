@@ -1,0 +1,65 @@
+/* ---------- SIDEBAR CONTAINER ---------- */
+.admin-sidebar {
+  width: 220px;
+  height: 100vh;
+  padding: 25px 20px;
+  background: #1e40af; /* same blue */
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #3b82f6;
+  box-sizing: border-box;
+}
+
+/* ---------- TITLE ---------- */
+.admin-sidebar h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* ---------- MENU ---------- */
+.admin-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.admin-link {
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #dbeafe;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.admin-link:hover {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.admin-link.active {
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* ---------- LOGOUT ---------- */
+.admin-logout {
+  margin-top: auto;
+  padding: 10px 15px;
+  border-radius: 6px;
+  background: #ef4444;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.admin-logout:hover {
+  background: #b91c1c;
+}

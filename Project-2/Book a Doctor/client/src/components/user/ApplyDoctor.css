@@ -1,0 +1,69 @@
+/* ---------- PAGE LAYOUT ---------- */
+.apply-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f1f5f9; /* light gray background */
+}
+
+.apply-main {
+  flex: 1;
+  padding: 30px;
+}
+
+/* ---------- HEADER ---------- */
+.apply-main h2 {
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+/* ---------- FORM ---------- */
+.apply-form {
+  max-width: 800px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- INPUTS & TEXTAREA ---------- */
+.apply-form input,
+.apply-form textarea {
+  width: 772px;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.apply-form textarea {
+  height: 80px;
+  resize: none;
+}
+
+/* ---------- SUBMIT BUTTON ---------- */
+.apply-form button {
+  margin-top: 15px;
+  width: 800px;
+  padding: 12px;
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.apply-form button:hover {
+  background: #1e40af;
+}
+
+.apply-form button:disabled {
+  background: #93c5fd;
+  cursor: not-allowed;
+}
